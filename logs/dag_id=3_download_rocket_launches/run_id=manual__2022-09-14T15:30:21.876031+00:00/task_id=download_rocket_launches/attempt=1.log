@@ -1,0 +1,55 @@
+[2022-09-14 15:30:22,327] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_download_rocket_launches.download_rocket_launches manual__2022-09-14T15:30:21.876031+00:00 [queued]>
+[2022-09-14 15:30:22,332] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_download_rocket_launches.download_rocket_launches manual__2022-09-14T15:30:21.876031+00:00 [queued]>
+[2022-09-14 15:30:22,333] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-14 15:30:22,334] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-14 15:30:22,335] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-14 15:30:22,344] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): download_rocket_launches> on 2022-09-14 15:30:21.876031+00:00
+[2022-09-14 15:30:22,348] {standard_task_runner.py:52} INFO - Started process 3100 to run task
+[2022-09-14 15:30:22,355] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '3_download_rocket_launches', 'download_rocket_launches', 'manual__2022-09-14T15:30:21.876031+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/test_test.py', '--cfg-path', '/tmp/tmpqu_gxwa1', '--error-file', '/tmp/tmp3ovqhwrb']
+[2022-09-14 15:30:22,357] {standard_task_runner.py:80} INFO - Job 57: Subtask download_rocket_launches
+[2022-09-14 15:30:22,428] {task_command.py:369} INFO - Running <TaskInstance: 3_download_rocket_launches.download_rocket_launches manual__2022-09-14T15:30:21.876031+00:00 [running]> on host c0f73d32ee2c
+[2022-09-14 15:30:22,476] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=3_download_rocket_launches
+AIRFLOW_CTX_TASK_ID=download_rocket_launches
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-14T15:30:21.876031+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-14T15:30:21.876031+00:00
+[2022-09-14 15:30:22,478] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:290: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-09-14 15:30:22,483] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/pathlib.py", line 1273, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/data/rocket_launches/ds=2022-09-14'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/pathlib.py", line 1273, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/data/rocket_launches'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_test.py", line 35, in _download_rocket_launches
+    pathlib.Path(result_path).mkdir(parents=True, exist_ok=True)
+  File "/usr/local/lib/python3.7/pathlib.py", line 1277, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/usr/local/lib/python3.7/pathlib.py", line 1277, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/usr/local/lib/python3.7/pathlib.py", line 1273, in mkdir
+    self._accessor.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/data'
+[2022-09-14 15:30:22,492] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=3_download_rocket_launches, task_id=download_rocket_launches, execution_date=20220914T153021, start_date=20220914T153022, end_date=20220914T153022
+[2022-09-14 15:30:22,500] {standard_task_runner.py:97} ERROR - Failed to execute job 57 for task download_rocket_launches ([Errno 13] Permission denied: '/data'; 3100)
+[2022-09-14 15:30:22,529] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-09-14 15:30:22,554] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

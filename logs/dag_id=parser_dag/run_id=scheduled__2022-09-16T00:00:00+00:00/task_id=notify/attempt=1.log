@@ -1,0 +1,28 @@
+[2022-09-17 00:01:45,997] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parser_dag.notify scheduled__2022-09-16T00:00:00+00:00 [queued]>
+[2022-09-17 00:01:46,004] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parser_dag.notify scheduled__2022-09-16T00:00:00+00:00 [queued]>
+[2022-09-17 00:01:46,005] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 00:01:46,005] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-17 00:01:46,006] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 00:01:46,017] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): notify> on 2022-09-16 00:00:00+00:00
+[2022-09-17 00:01:46,022] {standard_task_runner.py:52} INFO - Started process 74169 to run task
+[2022-09-17 00:01:46,025] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parser_dag', 'notify', 'scheduled__2022-09-16T00:00:00+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/pre_parser.py', '--cfg-path', '/tmp/tmpn47095mt', '--error-file', '/tmp/tmpbc7kfpa9']
+[2022-09-17 00:01:46,027] {standard_task_runner.py:80} INFO - Job 95: Subtask notify
+[2022-09-17 00:01:46,070] {task_command.py:369} INFO - Running <TaskInstance: parser_dag.notify scheduled__2022-09-16T00:00:00+00:00 [running]> on host 1085bb4029c2
+[2022-09-17 00:01:46,133] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parser_dag
+AIRFLOW_CTX_TASK_ID=notify
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-16T00:00:00+00:00
+[2022-09-17 00:01:46,136] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-17 00:01:46,138] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "Hello!"']
+[2022-09-17 00:01:46,162] {subprocess.py:85} INFO - Output:
+[2022-09-17 00:01:46,169] {subprocess.py:92} INFO - Hello!
+[2022-09-17 00:01:46,170] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-09-17 00:01:46,205] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=parser_dag, task_id=notify, execution_date=20220916T000000, start_date=20220917T000145, end_date=20220917T000146
+[2022-09-17 00:01:46,245] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-17 00:01:46,300] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

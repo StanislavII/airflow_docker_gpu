@@ -1,0 +1,63 @@
+[2022-10-15 15:58:27,153] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 15:58:27,165] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 15:58:27,166] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 15:58:27,167] {taskinstance.py:1357} INFO - Starting attempt 12 of 12
+[2022-10-15 15:58:27,168] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 15:58:27,183] {taskinstance.py:1377} INFO - Executing <Task(DockerOperator): check_gpu> on 2022-10-15 13:18:12.870163+00:00
+[2022-10-15 15:58:27,195] {standard_task_runner.py:52} INFO - Started process 1636 to run task
+[2022-10-15 15:58:27,201] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gpu_test', 'check_gpu', 'manual__2022-10-15T13:18:12.870163+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/gpu_test.py', '--cfg-path', '/tmp/tmp6qh6z47a', '--error-file', '/tmp/tmpefjyc86o']
+[2022-10-15 15:58:27,203] {standard_task_runner.py:80} INFO - Job 25: Subtask check_gpu
+[2022-10-15 15:58:27,269] {task_command.py:369} INFO - Running <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [running]> on host b7702695961a
+[2022-10-15 15:58:27,354] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gpu_test
+AIRFLOW_CTX_TASK_ID=check_gpu
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-15T13:18:12.870163+00:00
+AIRFLOW_CTX_TRY_NUMBER=12
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-15T13:18:12.870163+00:00
+[2022-10-15 15:58:27,396] {docker.py:247} INFO - Starting docker container from image tensorflow/tensorflow:2.7.0-gpu
+[2022-10-15 15:58:27,417] {docker.py:258} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2022-10-15 15:58:27,959] {docker.py:308} INFO - python3: can't open file 'data/main_inference.py': [Errno 2] No such file or directory
+[2022-10-15 15:58:28,058] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 268, in _raise_for_status
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://docker-proxy:2375/v1.41/containers/create
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 254, in _run_image
+    return self._run_image_with_mounts(self.mounts + [tmp_mount], add_tmp_variable=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 298, in _run_image_with_mounts
+    tty=self.tty,
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/container.py", line 428, in create_container
+    return self.create_container_from_config(config, name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/container.py", line 439, in create_container_from_config
+    return self._result(res, True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 274, in _result
+    self._raise_for_status(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 270, in _raise_for_status
+    raise create_api_error_from_http_exception(e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/errors.py", line 31, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation)
+docker.errors.APIError: 400 Client Error for http://docker-proxy:2375/v1.41/containers/create: Bad Request ("invalid mount config for type "bind": bind source path does not exist: /host_mnt/private/tmp/airflowtmp3qxoi62r")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 387, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 263, in _run_image
+    return self._run_image_with_mounts(self.mounts, add_tmp_variable=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 313, in _run_image_with_mounts
+    raise AirflowException(f'Docker container failed: {repr(result)} lines {joined_log_lines}')
+airflow.exceptions.AirflowException: Docker container failed: {'Error': None, 'StatusCode': 2} lines python3: can't open file 'data/main_inference.py': [Errno 2] No such file or directory
+[2022-10-15 15:58:28,064] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=gpu_test, task_id=check_gpu, execution_date=20221015T131812, start_date=20221015T155827, end_date=20221015T155828
+[2022-10-15 15:58:28,072] {standard_task_runner.py:97} ERROR - Failed to execute job 25 for task check_gpu (Docker container failed: {'Error': None, 'StatusCode': 2} lines python3: can't open file 'data/main_inference.py': [Errno 2] No such file or directory; 1636)
+[2022-10-15 15:58:28,102] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-15 15:58:28,135] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

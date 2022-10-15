@@ -1,0 +1,26 @@
+[2022-09-14 15:53:44,596] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_download_rocket_launches.download_rocket_launches manual__2022-09-14T15:48:23.947717+00:00 [queued]>
+[2022-09-14 15:53:44,604] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_download_rocket_launches.download_rocket_launches manual__2022-09-14T15:48:23.947717+00:00 [queued]>
+[2022-09-14 15:53:44,608] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-14 15:53:44,609] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2022-09-14 15:53:44,610] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-14 15:53:44,623] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): download_rocket_launches> on 2022-09-14 15:48:23.947717+00:00
+[2022-09-14 15:53:44,630] {standard_task_runner.py:52} INFO - Started process 619 to run task
+[2022-09-14 15:53:44,634] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '3_download_rocket_launches', 'download_rocket_launches', 'manual__2022-09-14T15:48:23.947717+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/test_test.py', '--cfg-path', '/tmp/tmpov9rg3n0', '--error-file', '/tmp/tmp4sgg9vx_']
+[2022-09-14 15:53:44,636] {standard_task_runner.py:80} INFO - Job 71: Subtask download_rocket_launches
+[2022-09-14 15:53:44,705] {task_command.py:369} INFO - Running <TaskInstance: 3_download_rocket_launches.download_rocket_launches manual__2022-09-14T15:48:23.947717+00:00 [running]> on host 0895a10dcb58
+[2022-09-14 15:53:44,762] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=3_download_rocket_launches
+AIRFLOW_CTX_TASK_ID=download_rocket_launches
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-14T15:48:23.947717+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-14T15:48:23.947717+00:00
+[2022-09-14 15:53:44,765] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:290: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-09-14 15:55:01,489] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-14 15:55:01,532] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=3_download_rocket_launches, task_id=download_rocket_launches, execution_date=20220914T154823, start_date=20220914T155344, end_date=20220914T155501
+[2022-09-14 15:55:01,606] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-14 15:55:01,633] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

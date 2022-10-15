@@ -1,0 +1,113 @@
+[2022-10-15 13:18:15,265] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 13:18:15,272] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 13:18:15,273] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 13:18:15,274] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-10-15 13:18:15,275] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 13:18:15,284] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): check_gpu> on 2022-10-15 13:18:12.870163+00:00
+[2022-10-15 13:18:15,289] {standard_task_runner.py:52} INFO - Started process 397 to run task
+[2022-10-15 13:18:15,299] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gpu_test', 'check_gpu', 'manual__2022-10-15T13:18:12.870163+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/gpu_test.py', '--cfg-path', '/tmp/tmpm8ynwqiv', '--error-file', '/tmp/tmpavrt1tg_']
+[2022-10-15 13:18:15,300] {standard_task_runner.py:80} INFO - Job 6: Subtask check_gpu
+[2022-10-15 13:18:15,354] {task_command.py:369} INFO - Running <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [running]> on host 99399dee83a3
+[2022-10-15 13:18:15,406] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gpu_test
+AIRFLOW_CTX_TASK_ID=check_gpu
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-15T13:18:12.870163+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-15T13:18:12.870163+00:00
+[2022-10-15 13:18:15,416] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.7/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.7/http/client.py", line 976, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.7/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.7/http/client.py", line 976, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 237, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 179, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gpu_test.py", line 28, in start_gpu_container
+    client = docker.from_env()
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/client.py", line 101, in from_env
+    **kwargs_from_env(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/client.py", line 45, in __init__
+    self.api = APIClient(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 222, in _retrieve_server_version
+    f'Error while fetching server API version: {e}'
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+[2022-10-15 13:18:15,432] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=gpu_test, task_id=check_gpu, execution_date=20221015T131812, start_date=20221015T131815, end_date=20221015T131815
+[2022-10-15 13:18:15,458] {standard_task_runner.py:97} ERROR - Failed to execute job 6 for task check_gpu (Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied')); 397)
+[2022-10-15 13:18:15,508] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-15 13:18:15,542] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,152 @@
+[2022-10-15 15:08:13,898] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 15:08:13,905] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 15:08:13,906] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 15:08:13,906] {taskinstance.py:1357} INFO - Starting attempt 8 of 8
+[2022-10-15 15:08:13,907] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 15:08:13,916] {taskinstance.py:1377} INFO - Executing <Task(DockerOperator): check_gpu> on 2022-10-15 13:18:12.870163+00:00
+[2022-10-15 15:08:13,921] {standard_task_runner.py:52} INFO - Started process 105 to run task
+[2022-10-15 15:08:13,924] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gpu_test', 'check_gpu', 'manual__2022-10-15T13:18:12.870163+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/gpu_test.py', '--cfg-path', '/tmp/tmpw458e88x', '--error-file', '/tmp/tmpbrhskor4']
+[2022-10-15 15:08:13,924] {standard_task_runner.py:80} INFO - Job 19: Subtask check_gpu
+[2022-10-15 15:08:13,969] {task_command.py:369} INFO - Running <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [running]> on host 0a2b557c0ba9
+[2022-10-15 15:08:14,032] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gpu_test
+AIRFLOW_CTX_TASK_ID=check_gpu
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-15T13:18:12.870163+00:00
+AIRFLOW_CTX_TRY_NUMBER=8
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-15T13:18:12.870163+00:00
+[2022-10-15 15:08:14,071] {docker.py:371} INFO - Pulling docker image tensorflow/tensorflow:2.7.0-gpu
+[2022-10-15 15:08:16,578] {docker.py:385} INFO - 2.7.0-gpu: Pulling from tensorflow/tensorflow
+[2022-10-15 15:08:16,583] {docker.py:385} INFO - 35807b77a593: Pulling fs layer
+[2022-10-15 15:08:16,584] {docker.py:385} INFO - 1ad5f8a5dfc8: Pulling fs layer
+[2022-10-15 15:08:16,586] {docker.py:385} INFO - 896d09e7c91f: Pulling fs layer
+[2022-10-15 15:08:16,587] {docker.py:385} INFO - 3ecacd24229f: Pulling fs layer
+[2022-10-15 15:08:16,588] {docker.py:385} INFO - 653a1d0c4ca9: Pulling fs layer
+[2022-10-15 15:08:16,589] {docker.py:385} INFO - 941a7e13b559: Pulling fs layer
+[2022-10-15 15:08:16,590] {docker.py:385} INFO - 64b81251449b: Pulling fs layer
+[2022-10-15 15:08:16,591] {docker.py:385} INFO - fdc3a7a74951: Pulling fs layer
+[2022-10-15 15:08:16,592] {docker.py:385} INFO - 13a0e6521855: Pulling fs layer
+[2022-10-15 15:08:16,593] {docker.py:385} INFO - 1ae7fa288f51: Pulling fs layer
+[2022-10-15 15:08:16,593] {docker.py:385} INFO - d1aa09c367e6: Pulling fs layer
+[2022-10-15 15:08:16,594] {docker.py:385} INFO - 811975ef9c3b: Pulling fs layer
+[2022-10-15 15:08:16,595] {docker.py:385} INFO - e7f4ebe0a303: Pulling fs layer
+[2022-10-15 15:08:16,596] {docker.py:385} INFO - 9af261647831: Pulling fs layer
+[2022-10-15 15:08:16,597] {docker.py:385} INFO - 13a0e6521855: Waiting
+[2022-10-15 15:08:16,598] {docker.py:385} INFO - 3ecacd24229f: Waiting
+[2022-10-15 15:08:16,598] {docker.py:385} INFO - 1ae7fa288f51: Waiting
+[2022-10-15 15:08:16,599] {docker.py:385} INFO - 653a1d0c4ca9: Waiting
+[2022-10-15 15:08:16,600] {docker.py:385} INFO - d1aa09c367e6: Waiting
+[2022-10-15 15:08:16,601] {docker.py:385} INFO - 941a7e13b559: Waiting
+[2022-10-15 15:08:16,601] {docker.py:385} INFO - 64b81251449b: Waiting
+[2022-10-15 15:08:16,602] {docker.py:385} INFO - 811975ef9c3b: Waiting
+[2022-10-15 15:08:16,603] {docker.py:385} INFO - fdc3a7a74951: Waiting
+[2022-10-15 15:08:16,604] {docker.py:385} INFO - e7f4ebe0a303: Waiting
+[2022-10-15 15:08:16,605] {docker.py:385} INFO - 9af261647831: Waiting
+[2022-10-15 15:08:17,339] {docker.py:385} INFO - 896d09e7c91f: Downloading
+[2022-10-15 15:08:17,569] {docker.py:385} INFO - 35807b77a593: Downloading
+[2022-10-15 15:08:18,060] {docker.py:385} INFO - 1ad5f8a5dfc8: Downloading
+[2022-10-15 15:08:20,253] {docker.py:385} INFO - 896d09e7c91f: Verifying Checksum
+[2022-10-15 15:08:20,255] {docker.py:385} INFO - 896d09e7c91f: Download complete
+[2022-10-15 15:08:21,151] {docker.py:385} INFO - 3ecacd24229f: Downloading
+[2022-10-15 15:08:21,153] {docker.py:385} INFO - 3ecacd24229f: Download complete
+[2022-10-15 15:08:22,075] {docker.py:385} INFO - 653a1d0c4ca9: Downloading
+[2022-10-15 15:08:22,079] {docker.py:385} INFO - 653a1d0c4ca9: Verifying Checksum
+[2022-10-15 15:08:22,080] {docker.py:385} INFO - 653a1d0c4ca9: Download complete
+[2022-10-15 15:08:23,648] {docker.py:385} INFO - 941a7e13b559: Downloading
+[2022-10-15 15:08:24,295] {docker.py:385} INFO - 1ad5f8a5dfc8: Verifying Checksum
+[2022-10-15 15:08:24,298] {docker.py:385} INFO - 1ad5f8a5dfc8: Download complete
+[2022-10-15 15:08:25,685] {docker.py:385} INFO - 64b81251449b: Downloading
+[2022-10-15 15:08:28,264] {docker.py:385} INFO - 35807b77a593: Verifying Checksum
+[2022-10-15 15:08:28,269] {docker.py:385} INFO - 35807b77a593: Download complete
+[2022-10-15 15:08:28,567] {docker.py:385} INFO - 35807b77a593: Extracting
+[2022-10-15 15:08:29,487] {docker.py:385} INFO - fdc3a7a74951: Downloading
+[2022-10-15 15:08:29,490] {docker.py:385} INFO - fdc3a7a74951: Download complete
+[2022-10-15 15:08:29,677] {docker.py:385} INFO - 35807b77a593: Pull complete
+[2022-10-15 15:08:29,748] {docker.py:385} INFO - 1ad5f8a5dfc8: Extracting
+[2022-10-15 15:08:29,976] {docker.py:385} INFO - 1ad5f8a5dfc8: Pull complete
+[2022-10-15 15:08:30,013] {docker.py:385} INFO - 896d09e7c91f: Extracting
+[2022-10-15 15:08:30,308] {docker.py:385} INFO - 896d09e7c91f: Pull complete
+[2022-10-15 15:08:30,310] {docker.py:385} INFO - 3ecacd24229f: Extracting
+[2022-10-15 15:08:30,350] {docker.py:385} INFO - 3ecacd24229f: Pull complete
+[2022-10-15 15:08:30,352] {docker.py:385} INFO - 653a1d0c4ca9: Extracting
+[2022-10-15 15:08:30,402] {docker.py:385} INFO - 653a1d0c4ca9: Pull complete
+[2022-10-15 15:08:33,355] {docker.py:385} INFO - 13a0e6521855: Downloading
+[2022-10-15 15:09:02,220] {docker.py:385} INFO - 13a0e6521855: Verifying Checksum
+[2022-10-15 15:09:02,223] {docker.py:385} INFO - 13a0e6521855: Download complete
+[2022-10-15 15:09:03,292] {docker.py:385} INFO - 1ae7fa288f51: Downloading
+[2022-10-15 15:09:06,170] {docker.py:385} INFO - 1ae7fa288f51: Verifying Checksum
+[2022-10-15 15:09:06,173] {docker.py:385} INFO - 1ae7fa288f51: Download complete
+[2022-10-15 15:09:07,594] {docker.py:385} INFO - d1aa09c367e6: Downloading
+[2022-10-15 15:09:07,598] {docker.py:385} INFO - d1aa09c367e6: Verifying Checksum
+[2022-10-15 15:09:07,599] {docker.py:385} INFO - d1aa09c367e6: Download complete
+[2022-10-15 15:09:09,351] {docker.py:385} INFO - 811975ef9c3b: Downloading
+[2022-10-15 15:09:44,583] {docker.py:385} INFO - 64b81251449b: Verifying Checksum
+[2022-10-15 15:09:44,588] {docker.py:385} INFO - 64b81251449b: Download complete
+[2022-10-15 15:09:45,545] {docker.py:385} INFO - e7f4ebe0a303: Downloading
+[2022-10-15 15:09:45,585] {docker.py:385} INFO - e7f4ebe0a303: Verifying Checksum
+[2022-10-15 15:09:45,587] {docker.py:385} INFO - e7f4ebe0a303: Download complete
+[2022-10-15 15:09:46,468] {docker.py:385} INFO - 9af261647831: Downloading
+[2022-10-15 15:09:46,510] {docker.py:385} INFO - 9af261647831: Verifying Checksum
+[2022-10-15 15:09:46,511] {docker.py:385} INFO - 9af261647831: Download complete
+[2022-10-15 15:12:56,897] {docker.py:385} INFO - 811975ef9c3b: Verifying Checksum
+[2022-10-15 15:12:56,901] {docker.py:385} INFO - 811975ef9c3b: Download complete
+[2022-10-15 15:15:06,680] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/http/client.py", line 562, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+  File "/usr/local/lib/python3.7/http/client.py", line 529, in _read_next_chunk_size
+    return int(line, 16)
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/http/client.py", line 594, in _readinto_chunked
+    chunk_left = self._get_chunk_left()
+  File "/usr/local/lib/python3.7/http/client.py", line 564, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/response.py", line 441, in _error_catcher
+    yield
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/response.py", line 522, in read
+    data = self._fp.read(amt) if not fp_closed else b""
+  File "/usr/local/lib/python3.7/http/client.py", line 465, in read
+    n = self.readinto(b)
+  File "/usr/local/lib/python3.7/http/client.py", line 499, in readinto
+    return self._readinto_chunked(b)
+  File "/usr/local/lib/python3.7/http/client.py", line 610, in _readinto_chunked
+    raise IncompleteRead(bytes(b[0:total_bytes]))
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 373, in execute
+    for output in self.cli.pull(self.image, stream=True, decode=True):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 344, in _stream_helper
+    yield from json_stream(self._stream_helper(response, False))
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/utils/json_stream.py", line 61, in split_buffer
+    for data in stream_as_text(stream):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/utils/json_stream.py", line 17, in stream_as_text
+    for data in stream:
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 349, in _stream_helper
+    data = reader.read(1)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/response.py", line 544, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "/usr/local/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/response.py", line 458, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
+[2022-10-15 15:15:06,890] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=gpu_test, task_id=check_gpu, execution_date=20221015T131812, start_date=20221015T150813, end_date=20221015T151506
+[2022-10-15 15:15:07,015] {standard_task_runner.py:97} ERROR - Failed to execute job 19 for task check_gpu (('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read)); 105)
+[2022-10-15 15:15:07,156] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-15 15:15:08,773] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-10-15 15:15:08,886] {dagrun.py:547} ERROR - Marking run <DagRun gpu_test @ 2022-10-15 13:18:12.870163+00:00: manual__2022-10-15T13:18:12.870163+00:00, externally triggered: True> failed
+[2022-10-15 15:15:08,902] {dagrun.py:622} INFO - DagRun Finished: dag_id=gpu_test, execution_date=2022-10-15 13:18:12.870163+00:00, run_id=manual__2022-10-15T13:18:12.870163+00:00, run_start_date=2022-10-15 15:08:13.251540+00:00, run_end_date=2022-10-15 15:15:08.901583+00:00, run_duration=415.650043, state=failed, external_trigger=True, run_type=manual, data_interval_start=2022-10-14 00:00:00+00:00, data_interval_end=2022-10-15 00:00:00+00:00, dag_hash=521cd9c546a3beb441d935ad65cd0481

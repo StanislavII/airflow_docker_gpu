@@ -1,0 +1,134 @@
+[2022-10-15 15:27:11,560] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 15:27:11,565] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 15:27:11,566] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 15:27:11,567] {taskinstance.py:1357} INFO - Starting attempt 9 of 9
+[2022-10-15 15:27:11,568] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 15:27:11,575] {taskinstance.py:1377} INFO - Executing <Task(DockerOperator): check_gpu> on 2022-10-15 13:18:12.870163+00:00
+[2022-10-15 15:27:11,584] {standard_task_runner.py:52} INFO - Started process 115 to run task
+[2022-10-15 15:27:11,587] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gpu_test', 'check_gpu', 'manual__2022-10-15T13:18:12.870163+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/gpu_test.py', '--cfg-path', '/tmp/tmp6n4htvcr', '--error-file', '/tmp/tmp_twip5ty']
+[2022-10-15 15:27:11,588] {standard_task_runner.py:80} INFO - Job 22: Subtask check_gpu
+[2022-10-15 15:27:11,626] {task_command.py:369} INFO - Running <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [running]> on host b7702695961a
+[2022-10-15 15:27:11,677] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gpu_test
+AIRFLOW_CTX_TASK_ID=check_gpu
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-15T13:18:12.870163+00:00
+AIRFLOW_CTX_TRY_NUMBER=9
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-15T13:18:12.870163+00:00
+[2022-10-15 15:27:11,723] {docker.py:371} INFO - Pulling docker image tensorflow/tensorflow:2.7.0-gpu
+[2022-10-15 15:27:13,617] {docker.py:385} INFO - 2.7.0-gpu: Pulling from tensorflow/tensorflow
+[2022-10-15 15:27:13,619] {docker.py:385} INFO - 35807b77a593: Pulling fs layer
+[2022-10-15 15:27:13,621] {docker.py:385} INFO - 1ad5f8a5dfc8: Pulling fs layer
+[2022-10-15 15:27:13,622] {docker.py:385} INFO - 896d09e7c91f: Pulling fs layer
+[2022-10-15 15:27:13,623] {docker.py:385} INFO - 3ecacd24229f: Pulling fs layer
+[2022-10-15 15:27:13,624] {docker.py:385} INFO - 653a1d0c4ca9: Pulling fs layer
+[2022-10-15 15:27:13,624] {docker.py:385} INFO - 941a7e13b559: Pulling fs layer
+[2022-10-15 15:27:13,626] {docker.py:385} INFO - 64b81251449b: Pulling fs layer
+[2022-10-15 15:27:13,626] {docker.py:385} INFO - fdc3a7a74951: Pulling fs layer
+[2022-10-15 15:27:13,627] {docker.py:385} INFO - 13a0e6521855: Pulling fs layer
+[2022-10-15 15:27:13,628] {docker.py:385} INFO - 1ae7fa288f51: Pulling fs layer
+[2022-10-15 15:27:13,629] {docker.py:385} INFO - d1aa09c367e6: Pulling fs layer
+[2022-10-15 15:27:13,630] {docker.py:385} INFO - 811975ef9c3b: Pulling fs layer
+[2022-10-15 15:27:13,631] {docker.py:385} INFO - e7f4ebe0a303: Pulling fs layer
+[2022-10-15 15:27:13,632] {docker.py:385} INFO - 9af261647831: Pulling fs layer
+[2022-10-15 15:27:13,633] {docker.py:385} INFO - 653a1d0c4ca9: Waiting
+[2022-10-15 15:27:13,633] {docker.py:385} INFO - 941a7e13b559: Waiting
+[2022-10-15 15:27:13,635] {docker.py:385} INFO - 64b81251449b: Waiting
+[2022-10-15 15:27:13,637] {docker.py:385} INFO - fdc3a7a74951: Waiting
+[2022-10-15 15:27:13,638] {docker.py:385} INFO - 13a0e6521855: Waiting
+[2022-10-15 15:27:13,639] {docker.py:385} INFO - 1ae7fa288f51: Waiting
+[2022-10-15 15:27:13,640] {docker.py:385} INFO - d1aa09c367e6: Waiting
+[2022-10-15 15:27:13,640] {docker.py:385} INFO - 811975ef9c3b: Waiting
+[2022-10-15 15:27:13,641] {docker.py:385} INFO - e7f4ebe0a303: Waiting
+[2022-10-15 15:27:13,642] {docker.py:385} INFO - 9af261647831: Waiting
+[2022-10-15 15:27:13,642] {docker.py:385} INFO - 3ecacd24229f: Waiting
+[2022-10-15 15:27:14,396] {docker.py:385} INFO - 896d09e7c91f: Downloading
+[2022-10-15 15:27:14,447] {docker.py:385} INFO - 1ad5f8a5dfc8: Downloading
+[2022-10-15 15:27:14,966] {docker.py:385} INFO - 35807b77a593: Downloading
+[2022-10-15 15:27:18,589] {docker.py:385} INFO - 1ad5f8a5dfc8: Verifying Checksum
+[2022-10-15 15:27:18,591] {docker.py:385} INFO - 1ad5f8a5dfc8: Download complete
+[2022-10-15 15:27:19,959] {docker.py:385} INFO - 3ecacd24229f: Downloading
+[2022-10-15 15:27:19,984] {docker.py:385} INFO - 3ecacd24229f: Verifying Checksum
+[2022-10-15 15:27:19,987] {docker.py:385} INFO - 3ecacd24229f: Download complete
+[2022-10-15 15:27:20,189] {docker.py:385} INFO - 896d09e7c91f: Verifying Checksum
+[2022-10-15 15:27:20,192] {docker.py:385} INFO - 896d09e7c91f: Download complete
+[2022-10-15 15:27:21,060] {docker.py:385} INFO - 653a1d0c4ca9: Downloading
+[2022-10-15 15:27:21,066] {docker.py:385} INFO - 653a1d0c4ca9: Verifying Checksum
+[2022-10-15 15:27:21,067] {docker.py:385} INFO - 653a1d0c4ca9: Download complete
+[2022-10-15 15:27:21,486] {docker.py:385} INFO - 941a7e13b559: Downloading
+[2022-10-15 15:27:23,597] {docker.py:385} INFO - 64b81251449b: Downloading
+[2022-10-15 15:27:42,551] {docker.py:385} INFO - 35807b77a593: Verifying Checksum
+[2022-10-15 15:27:42,559] {docker.py:385} INFO - 35807b77a593: Download complete
+[2022-10-15 15:27:42,847] {docker.py:385} INFO - 35807b77a593: Extracting
+[2022-10-15 15:27:43,829] {docker.py:385} INFO - fdc3a7a74951: Downloading
+[2022-10-15 15:27:43,849] {docker.py:385} INFO - fdc3a7a74951: Verifying Checksum
+[2022-10-15 15:27:43,853] {docker.py:385} INFO - fdc3a7a74951: Download complete
+[2022-10-15 15:27:44,400] {docker.py:385} INFO - 35807b77a593: Pull complete
+[2022-10-15 15:27:44,472] {docker.py:385} INFO - 1ad5f8a5dfc8: Extracting
+[2022-10-15 15:27:44,796] {docker.py:385} INFO - 1ad5f8a5dfc8: Pull complete
+[2022-10-15 15:27:44,856] {docker.py:385} INFO - 896d09e7c91f: Extracting
+[2022-10-15 15:27:45,186] {docker.py:385} INFO - 896d09e7c91f: Pull complete
+[2022-10-15 15:27:45,189] {docker.py:385} INFO - 3ecacd24229f: Extracting
+[2022-10-15 15:27:45,226] {docker.py:385} INFO - 3ecacd24229f: Pull complete
+[2022-10-15 15:27:45,228] {docker.py:385} INFO - 653a1d0c4ca9: Extracting
+[2022-10-15 15:27:45,265] {docker.py:385} INFO - 653a1d0c4ca9: Pull complete
+[2022-10-15 15:27:45,487] {docker.py:385} INFO - 13a0e6521855: Downloading
+[2022-10-15 15:28:22,811] {docker.py:385} INFO - 13a0e6521855: Verifying Checksum
+[2022-10-15 15:28:22,823] {docker.py:385} INFO - 13a0e6521855: Download complete
+[2022-10-15 15:28:24,102] {docker.py:385} INFO - 1ae7fa288f51: Downloading
+[2022-10-15 15:28:27,515] {docker.py:385} INFO - 1ae7fa288f51: Verifying Checksum
+[2022-10-15 15:28:27,518] {docker.py:385} INFO - 1ae7fa288f51: Download complete
+[2022-10-15 15:28:28,751] {docker.py:385} INFO - d1aa09c367e6: Download complete
+[2022-10-15 15:28:30,125] {docker.py:385} INFO - 811975ef9c3b: Downloading
+[2022-10-15 15:30:06,648] {docker.py:385} INFO - 64b81251449b: Verifying Checksum
+[2022-10-15 15:30:06,651] {docker.py:385} INFO - 64b81251449b: Download complete
+[2022-10-15 15:30:08,284] {docker.py:385} INFO - e7f4ebe0a303: Downloading
+[2022-10-15 15:30:08,329] {docker.py:385} INFO - e7f4ebe0a303: Verifying Checksum
+[2022-10-15 15:30:08,331] {docker.py:385} INFO - e7f4ebe0a303: Download complete
+[2022-10-15 15:30:09,651] {docker.py:385} INFO - 9af261647831: Downloading
+[2022-10-15 15:30:09,693] {docker.py:385} INFO - 9af261647831: Verifying Checksum
+[2022-10-15 15:30:09,694] {docker.py:385} INFO - 9af261647831: Download complete
+[2022-10-15 15:31:57,298] {docker.py:385} INFO - 811975ef9c3b: Verifying Checksum
+[2022-10-15 15:31:57,302] {docker.py:385} INFO - 811975ef9c3b: Download complete
+[2022-10-15 15:36:03,853] {docker.py:385} INFO - 941a7e13b559: Verifying Checksum
+[2022-10-15 15:36:03,857] {docker.py:385} INFO - 941a7e13b559: Download complete
+[2022-10-15 15:36:04,062] {docker.py:385} INFO - 941a7e13b559: Extracting
+[2022-10-15 15:36:53,575] {docker.py:385} INFO - 941a7e13b559: Pull complete
+[2022-10-15 15:36:53,734] {docker.py:385} INFO - 64b81251449b: Extracting
+[2022-10-15 15:36:59,806] {docker.py:385} INFO - 64b81251449b: Pull complete
+[2022-10-15 15:36:59,819] {docker.py:385} INFO - fdc3a7a74951: Extracting
+[2022-10-15 15:36:59,990] {docker.py:385} INFO - fdc3a7a74951: Pull complete
+[2022-10-15 15:37:00,101] {docker.py:385} INFO - 13a0e6521855: Extracting
+[2022-10-15 15:37:01,105] {docker.py:385} INFO - 13a0e6521855: Pull complete
+[2022-10-15 15:37:01,165] {docker.py:385} INFO - 1ae7fa288f51: Extracting
+[2022-10-15 15:37:01,345] {docker.py:385} INFO - 1ae7fa288f51: Pull complete
+[2022-10-15 15:37:01,347] {docker.py:385} INFO - d1aa09c367e6: Extracting
+[2022-10-15 15:37:01,385] {docker.py:385} INFO - d1aa09c367e6: Pull complete
+[2022-10-15 15:37:01,440] {docker.py:385} INFO - 811975ef9c3b: Extracting
+[2022-10-15 15:37:19,414] {docker.py:385} INFO - 811975ef9c3b: Pull complete
+[2022-10-15 15:37:19,419] {docker.py:385} INFO - e7f4ebe0a303: Extracting
+[2022-10-15 15:37:19,514] {docker.py:385} INFO - e7f4ebe0a303: Pull complete
+[2022-10-15 15:37:19,517] {docker.py:385} INFO - 9af261647831: Extracting
+[2022-10-15 15:37:19,559] {docker.py:385} INFO - 9af261647831: Pull complete
+[2022-10-15 15:37:19,583] {docker.py:380} INFO - Digest: sha256:fc5eb0604722c7bef7b499bb007b3050c4beec5859c2e0d4409d2cca5c14d442
+[2022-10-15 15:37:19,585] {docker.py:380} INFO - Status: Downloaded newer image for tensorflow/tensorflow:2.7.0-gpu
+[2022-10-15 15:37:19,621] {docker.py:247} INFO - Starting docker container from image tensorflow/tensorflow:2.7.0-gpu
+[2022-10-15 15:37:19,677] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 387, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 254, in _run_image
+    return self._run_image_with_mounts(self.mounts + [tmp_mount], add_tmp_variable=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 292, in _run_image_with_mounts
+    privileged=self.privileged,
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/container.py", line 596, in create_host_config
+    return HostConfig(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/types/containers.py", line 624, in __init__
+    raise host_config_version_error('mounts', '1.30')
+docker.errors.InvalidVersion: mounts param is not supported in API versions < 1.30
+[2022-10-15 15:37:19,847] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=gpu_test, task_id=check_gpu, execution_date=20221015T131812, start_date=20221015T152711, end_date=20221015T153719
+[2022-10-15 15:37:19,943] {standard_task_runner.py:97} ERROR - Failed to execute job 22 for task check_gpu (mounts param is not supported in API versions < 1.30; 115)
+[2022-10-15 15:37:20,064] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-15 15:37:20,150] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

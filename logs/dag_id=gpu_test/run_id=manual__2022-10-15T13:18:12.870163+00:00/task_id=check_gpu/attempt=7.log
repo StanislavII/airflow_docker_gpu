@@ -1,0 +1,23 @@
+[2022-10-15 14:41:06,680] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 14:41:06,686] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [queued]>
+[2022-10-15 14:41:06,687] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 14:41:06,688] {taskinstance.py:1357} INFO - Starting attempt 7 of 7
+[2022-10-15 14:41:06,689] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-15 14:41:06,697] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): check_gpu> on 2022-10-15 13:18:12.870163+00:00
+[2022-10-15 14:41:06,701] {standard_task_runner.py:52} INFO - Started process 1650 to run task
+[2022-10-15 14:41:06,705] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'gpu_test', 'check_gpu', 'manual__2022-10-15T13:18:12.870163+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/gpu_test.py', '--cfg-path', '/tmp/tmpway6m7_y', '--error-file', '/tmp/tmpbsk9ef5v']
+[2022-10-15 14:41:06,706] {standard_task_runner.py:80} INFO - Job 16: Subtask check_gpu
+[2022-10-15 14:41:06,771] {task_command.py:369} INFO - Running <TaskInstance: gpu_test.check_gpu manual__2022-10-15T13:18:12.870163+00:00 [running]> on host 44f12f161b19
+[2022-10-15 14:41:06,813] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gpu_test
+AIRFLOW_CTX_TASK_ID=check_gpu
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-15T13:18:12.870163+00:00
+AIRFLOW_CTX_TRY_NUMBER=7
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-15T13:18:12.870163+00:00
+[2022-10-15 14:41:06,816] {python.py:173} INFO - Done. Returned value was: 5.0.3
+[2022-10-15 14:41:06,834] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=gpu_test, task_id=check_gpu, execution_date=20221015T131812, start_date=20221015T144106, end_date=20221015T144106
+[2022-10-15 14:41:06,877] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-10-15 14:41:06,899] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
