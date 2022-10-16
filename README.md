@@ -16,10 +16,11 @@
   * Нужно создать точно такую же структуру как и у меня папки и файлы 
 2. Скачать оригнальный [докер-компоуз](https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml)
 3. Прописать доступы в папки 
-''' Bash
+
+```Bash
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - /var/run/docker.sock:/var/run/docker.sock
     - $PWD/data:/data
- '''
+```
