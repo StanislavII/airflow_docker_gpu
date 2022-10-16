@@ -24,3 +24,14 @@
     - /var/run/docker.sock:/var/run/docker.sock
     - $PWD/data:/data
 ```
+4. Добавить часть с прокси
+
+```Bash
+docker-proxy:
+    image: bobrik/socat
+    command: "TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock"
+    ports:
+      - "2376:2375"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+```
