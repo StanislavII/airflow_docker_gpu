@@ -10,3 +10,16 @@
 * _docker-compose - основа основ то из-за чего вообще все работает, грубо говоря та шутка которая нам позволяет запустить несколько образов в одном контейнере и использовать плюшки каждого без нарушения зависимостей, штука очень хрупкая и привередливая 
 * _requirements - то чем мы будем дополнять apache/airflow_
 
+## 1 part. Get started
+
+1. Создание правильной структуры директории
+  * Нужно создать точно такую же структуру как и у меня папки и файлы 
+2. Скачать оригнальный [докер-компоуз](https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml)
+3. Прописать доступы в папки 
+''' Bash
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    - /var/run/docker.sock:/var/run/docker.sock
+    - $PWD/data:/data
+ '''
