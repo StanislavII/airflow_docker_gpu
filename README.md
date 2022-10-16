@@ -36,4 +36,25 @@ docker-proxy:
       - /var/run/docker.sock:/var/run/docker.sock
 ```
 5. Прописать сервер для postgres
-6. 
+6. **На этой части мы уже можем запускать проект**
+
+7. _Но для начала некоторые команды чтобы не гуглить
+```Bash
+docker images # список образов
+docker pull {image} # скачать образ
+docker run -d -p {port} {image} # запуск образа по порту, флажок -d обозначает запуск через демона (фоновый режим)
+docker ps -a - вывод активных контейнеров, флажок -a вывод еще и некактивные
+docker stop/start {container_id} # приостанавливает либо запускает контейнер
+docker exec -it {container_id} bash # позволяет попасть в котейнер
+docker kill {container_id} # более быстрый и небезопасный stop
+docker rm {container_id} # удалить контейнер
+docker rm $(docker ps -aq) # удалить все контейнеры
+docker rmi {image} # удалить образ
+docker build -t {image_name} . # создает образ на основе dockerfile текущей директории
+docker build -f {Dockerfile} # либо на основе какого-то конкретного dockerfile
+docker commit {container_id} {new_image_name} # на основе запущенного контейнера создает образ
+docker-compose up airflow-init # инициализируем профиль для первого раза в airflow -> папка logs
+docker-compose up -d -build # запускает процесс в фоновом режиме со сборкой необходимых образов (если есть --no-cache)
+docker-compose down #  останавливает процесс
+docker volume prune # очищает папки логических томов
+```
