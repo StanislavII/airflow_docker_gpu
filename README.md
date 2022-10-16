@@ -35,3 +35,5 @@ docker-proxy:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
 ```
+5. Прописать сервер для postgres
+6. 
