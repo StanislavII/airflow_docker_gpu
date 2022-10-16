@@ -14,11 +14,13 @@ from typing import List
 import pickle
 import datetime
 import numpy as np
+import pandas as pd
 import pathlib
 import airflow
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 today = str(datetime.date.today())
 
@@ -100,22 +102,58 @@ def final(shop_list, ds):
    with open(posixpath.join(home_path, "prices.pickle"), "wb") as handle:
        pickle.dump(data, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+   t_pd = pd.DataFrame(data)
+   t_pd.to_csv(posixpath.join(home_path, "csv_frame.csv"))
 
 dag = DAG(dag_id = 'parser_dag',
 start_date = airflow.utils.dates.days_ago(7),
 schedule_interval = "@daily")
 
-python_test = PythonOperator(task_id = "parser_python",
+python_load = PythonOperator(task_id = "parser_python",
 python_callable = final,
 op_kwargs = { "shop_list": shop_list
 },
 provide_context=True,
  dag = dag)
 
+  
+task_second = PostgresOperator(
+task_id='create_postgres_table',
+postgres_conn_id='postgre_sql',
+sql="""
+create table if not exists edadil (
+dt date,
+name character varying,
+price_before numeric(8,2),
+price_after numeric(8,2),
+amount numeric(8,2),
+amout_unit character varying,
+discount numeric(8,2),
+start_date character varying,
+end_date character varying,
+ city character varying,
+ shop character varying,
+ page integer,
+ processed_date character varying,
+primary key (dt, name)
+)
+""", dag = dag
+)
+
+task_load_data = BashOperator(
+task_id='load_sql_data',
+bash_command=(
+'psql -d for_project -U airflow -c "'
+'COPY edadil(dt, name, price_before, price_after, amount, amount_unit, discount, start_date, end_date, city, shop, page, precessed_date) '
+"FROM f'data/history_prices/ds=2022-10-16/csv_frame.csv' "
+"DELIMITER ',' "
+'CSV HEADER"'
+),
+dag = dag)
 notify = BashOperator(task_id = "notify",
 bash_command = 'echo "Hello!"', dag = dag)
 
-python_test >> notify
+python_load >>  task_second >> task_load_data >> notify
 
 
 
