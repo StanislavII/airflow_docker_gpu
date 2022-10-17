@@ -89,6 +89,14 @@ docker-compose up -d
 
 ![DAG](dag_screen.png)
 
+* parser_python парсит данные едадила и сохраняет их в папку data по дням в формате csv
+* create_postgres_table создает таблицу с необходимыми форматами данных
+* import_file выгружает данные в дб ежедневно
+* notify bash команда сообщающая об ошибке либо успехе всего процесса
+
 Результат отработки процесса можно увидеть dbeaver
 
 ![Base](db_screen.png)
+
+## 4 part. Container in Container with GPU Image
+
