@@ -76,6 +76,6 @@ image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.3.0} -> image: ${AIRFLOW_IMAGE_NAM
 ```Bash
 docker-compose up -d
 ```
-> На localhost:8080 должен открыться airflow c нашими процессами 
+> На [localhost:8080](http://localhost:8080/) должен открыться airflow c нашими процессами 
 
 ## 3 part. Airflow 
