@@ -79,4 +79,4 @@ docker-compose up -d
 > На [localhost:8080](http://localhost:8080/) должен открыться airflow c нашими процессами 
 
 ## 3 part. Airflow and postgres
-![Screenshot](Screenshot 2022-10-17 at 22.57.18.png)
+![Screenshot]('Screenshot 2022-10-17 at 22.57.18.png')
