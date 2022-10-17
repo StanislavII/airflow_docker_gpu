@@ -22,7 +22,28 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
+import sys
+sys.path.append('./modules/')
+
+from etl import Etl
+
 today = str(datetime.date.today())
+
+raw_table = "public.edadil"
+csv_source_file = posixpath.join(f"data/history_prices/ds={today}", "prices.csv")
+file_delimiter = "?"
+pg_str_conn = "host='postgres' dbname='for_project' user='airflow' password='airflow'"
+
+def import_file(csv_source_file, file_delimiter, pg_str_conn, raw_table):
+    etl_test = Etl()
+    etl_test.pg_load_from_csv_file(
+            csv_source_file=csv_source_file,
+            file_delimiter=file_delimiter,
+            pg_str_conn=pg_str_conn,
+            pg_schema=raw_table.split(".")[0],
+            pg_dest_table=raw_table.split(".")[1]
+        )
+        
 
 def get_url(city, shop, page_num):
     url = f"https://squark.edadeal.ru/web/search/offers?count=50&locality={city}&page={page_num}&retailer={shop}"
@@ -71,21 +92,23 @@ def parse_shop(city: str = 'moskva', shop: str = '5ka', page_range: int = 100, s
                 print(f'No more products in {shop}')
             else:
                 print(f'No data for {shop}')
-            return shop_data
+            return pd.DataFrame(shop_data)
         else:
             if skip_errors:
                 print(f'Unexpected code {code} for {shop}')
                 return shop_data
             else:
                 raise ValueError(f'Unexpected code {code} for {shop}')
+    shop_data = pd.DataFrame(shop_data)
     return shop_data
 
 
 def parse_shop_list(city: str, shop_list: List[str], page_range=100):
-    shop_dict = {}
+    data = pd.DataFrame()
     for shop in shop_list:
-        shop_dict[shop] = parse_shop(city=city, shop=shop, page_range=page_range)
-    return shop_dict
+        shop_data = parse_shop(city=city, shop=shop, page_range=page_range)
+        data = pd.concat([data, shop_data])
+    return data
     
 shop_list = ['5ka', 'magnit-univer', 'perekrestok', 'dixy',
                  'lenta-super', 'vkusvill_offline', 'mgnl', 'azbuka_vkusa']
@@ -98,12 +121,10 @@ def final(shop_list, ds):
    pathlib.Path(home_path).mkdir(parents=True, exist_ok=True)
 
    data = parse_shop_list(city='moskva', shop_list=shop_list, page_range=100)
-   
-   with open(posixpath.join(home_path, "prices.pickle"), "wb") as handle:
-       pickle.dump(data, handle, protocol=pickle.HIGHEST_PROTOCOL)
+   data['dt'] =  pd.to_datetime(f"{ds}", format='%Y-%m-%d')
+    
+   data.to_csv(posixpath.join(home_path, "prices.csv"),sep = "?", index=False)
 
-   t_pd = pd.DataFrame(data)
-   t_pd.to_csv(posixpath.join(home_path, "csv_frame.csv"))
 
 dag = DAG(dag_id = 'parser_dag',
 start_date = airflow.utils.dates.days_ago(7),
@@ -121,39 +142,34 @@ task_second = PostgresOperator(
 task_id='create_postgres_table',
 postgres_conn_id='postgre_sql',
 sql="""
-create table if not exists edadil (
-dt date,
+create table if not exists edadil(
 name character varying,
-price_before numeric(8,2),
-price_after numeric(8,2),
-amount numeric(8,2),
+price_before character varying,
+price_after character varying,
+amount character varying,
 amout_unit character varying,
-discount numeric(8,2),
+discount character varying,
 start_date character varying,
 end_date character varying,
  city character varying,
  shop character varying,
  page integer,
- processed_date character varying,
-primary key (dt, name)
+ processed_date date,
+ discountcondition character varying,
+ dt date
 )
 """, dag = dag
 )
+import_file = PythonOperator(
+    task_id="import_file",
+    python_callable=import_file,
+    op_kwargs={"csv_source_file":csv_source_file, "file_delimiter":file_delimiter, "pg_str_conn":pg_str_conn, "raw_table":raw_table},
+    dag=dag)
 
-task_load_data = BashOperator(
-task_id='load_sql_data',
-bash_command=(
-'psql -d for_project -U airflow -c "'
-'COPY edadil(dt, name, price_before, price_after, amount, amount_unit, discount, start_date, end_date, city, shop, page, precessed_date) '
-"FROM f'data/history_prices/ds=2022-10-16/csv_frame.csv' "
-"DELIMITER ',' "
-'CSV HEADER"'
-),
-dag = dag)
 notify = BashOperator(task_id = "notify",
 bash_command = 'echo "Hello!"', dag = dag)
 
-python_load >>  task_second >> task_load_data >> notify
+python_load >>  task_second >> import_file >> notify
 
 
 

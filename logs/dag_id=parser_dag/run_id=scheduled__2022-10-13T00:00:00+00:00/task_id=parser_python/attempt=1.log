@@ -1,0 +1,86 @@
+[2022-10-16 22:50:36,499] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parser_dag.parser_python scheduled__2022-10-13T00:00:00+00:00 [queued]>
+[2022-10-16 22:50:36,595] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parser_dag.parser_python scheduled__2022-10-13T00:00:00+00:00 [queued]>
+[2022-10-16 22:50:36,599] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-16 22:50:36,602] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-10-16 22:50:36,604] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-16 22:50:36,785] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): parser_python> on 2022-10-13 00:00:00+00:00
+[2022-10-16 22:50:36,964] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parser_dag', 'parser_python', 'scheduled__2022-10-13T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/pre_parser.py', '--cfg-path', '/tmp/tmpqoq8pdbb', '--error-file', '/tmp/tmpfrlutd16']
+[2022-10-16 22:50:36,993] {standard_task_runner.py:80} INFO - Job 5: Subtask parser_python
+[2022-10-16 22:50:36,954] {standard_task_runner.py:52} INFO - Started process 112 to run task
+[2022-10-16 22:50:37,773] {task_command.py:369} INFO - Running <TaskInstance: parser_dag.parser_python scheduled__2022-10-13T00:00:00+00:00 [running]> on host eda31ed78ba3
+[2022-10-16 22:50:38,400] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parser_dag
+AIRFLOW_CTX_TASK_ID=parser_python
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-13T00:00:00+00:00
+[2022-10-16 22:50:41,380] {logging_mixin.py:115} INFO - No more products in 5ka
+[2022-10-16 22:50:42,160] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff7ddca950>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='squark.edadeal.ru', port=443): Max retries exceeded with url: /web/search/offers?count=50&locality=moskva&page=1&retailer=magnit-univer (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff7ddca950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pre_parser.py", line 100, in final
+    data = parse_shop_list(city='moskva', shop_list=shop_list, page_range=100)
+  File "/opt/airflow/dags/pre_parser.py", line 87, in parse_shop_list
+    shop_dict[shop] = parse_shop(city=city, shop=shop, page_range=page_range)
+  File "/opt/airflow/dags/pre_parser.py", line 65, in parse_shop
+    code = check_url_code(city, shop, page_num=page)
+  File "/opt/airflow/dags/pre_parser.py", line 34, in check_url_code
+    return requests.get(url, allow_redirects=True).status_code
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='squark.edadeal.ru', port=443): Max retries exceeded with url: /web/search/offers?count=50&locality=moskva&page=1&retailer=magnit-univer (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff7ddca950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2022-10-16 22:50:42,560] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=parser_dag, task_id=parser_python, execution_date=20221013T000000, start_date=20221016T225036, end_date=20221016T225042
+[2022-10-16 22:50:43,249] {standard_task_runner.py:97} ERROR - Failed to execute job 5 for task parser_python (HTTPSConnectionPool(host='squark.edadeal.ru', port=443): Max retries exceeded with url: /web/search/offers?count=50&locality=moskva&page=1&retailer=magnit-univer (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff7ddca950>: Failed to establish a new connection: [Errno 111] Connection refused')); 112)
+[2022-10-16 22:50:43,600] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-16 22:50:44,279] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

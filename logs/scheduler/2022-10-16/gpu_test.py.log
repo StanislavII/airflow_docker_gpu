@@ -1,0 +1,179 @@
+[2022-10-16 22:49:45,118] {processor.py:153} INFO - Started process (PID=43) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:49:45,124] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:49:45,127] {logging_mixin.py:115} INFO - [2022-10-16 22:49:45,126] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:49:46,148] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:49:46,396] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,395] {manager.py:508} INFO - Created Permission View: can delete on DAG:gpu_test
+[2022-10-16 22:49:46,413] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,413] {manager.py:508} INFO - Created Permission View: can edit on DAG:gpu_test
+[2022-10-16 22:49:46,421] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,421] {manager.py:508} INFO - Created Permission View: can read on DAG:gpu_test
+[2022-10-16 22:49:46,424] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,424] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:49:46,438] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,438] {dag.py:2390} INFO - Creating ORM DAG for gpu_test
+[2022-10-16 22:49:46,459] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,459] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:49:46,490] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 1.409 seconds
+[2022-10-16 22:50:17,435] {processor.py:153} INFO - Started process (PID=101) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:50:17,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:50:17,445] {logging_mixin.py:115} INFO - [2022-10-16 22:50:17,445] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:50:17,954] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:50:17,998] {logging_mixin.py:115} INFO - [2022-10-16 22:50:17,998] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:50:18,017] {logging_mixin.py:115} INFO - [2022-10-16 22:50:18,017] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:50:18,027] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.604 seconds
+[2022-10-16 22:50:52,902] {processor.py:153} INFO - Started process (PID=175) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:50:52,905] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:50:52,907] {logging_mixin.py:115} INFO - [2022-10-16 22:50:52,907] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:50:53,171] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:50:53,202] {logging_mixin.py:115} INFO - [2022-10-16 22:50:53,202] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:50:53,240] {logging_mixin.py:115} INFO - [2022-10-16 22:50:53,240] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:50:53,256] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.362 seconds
+[2022-10-16 22:51:23,665] {processor.py:153} INFO - Started process (PID=232) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:51:23,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:51:23,668] {logging_mixin.py:115} INFO - [2022-10-16 22:51:23,668] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:51:23,896] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:51:23,920] {logging_mixin.py:115} INFO - [2022-10-16 22:51:23,920] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:51:23,965] {logging_mixin.py:115} INFO - [2022-10-16 22:51:23,965] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:51:23,974] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.313 seconds
+[2022-10-16 22:51:54,316] {processor.py:153} INFO - Started process (PID=299) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:51:54,318] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:51:54,319] {logging_mixin.py:115} INFO - [2022-10-16 22:51:54,319] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:51:54,842] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:51:54,894] {logging_mixin.py:115} INFO - [2022-10-16 22:51:54,894] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:51:54,922] {logging_mixin.py:115} INFO - [2022-10-16 22:51:54,922] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:51:54,939] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.627 seconds
+[2022-10-16 22:52:25,357] {processor.py:153} INFO - Started process (PID=365) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:52:25,358] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:52:25,359] {logging_mixin.py:115} INFO - [2022-10-16 22:52:25,359] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:52:25,817] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:52:25,860] {logging_mixin.py:115} INFO - [2022-10-16 22:52:25,859] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:52:25,884] {logging_mixin.py:115} INFO - [2022-10-16 22:52:25,884] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:52:25,894] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.540 seconds
+[2022-10-16 22:52:56,783] {processor.py:153} INFO - Started process (PID=432) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:52:56,785] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:52:56,788] {logging_mixin.py:115} INFO - [2022-10-16 22:52:56,788] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:52:57,385] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:52:57,421] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,421] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:52:57,442] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,441] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:52:57,454] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.678 seconds
+[2022-10-16 22:53:27,706] {processor.py:153} INFO - Started process (PID=497) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:53:27,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:53:27,709] {logging_mixin.py:115} INFO - [2022-10-16 22:53:27,709] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:53:28,047] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:53:28,075] {logging_mixin.py:115} INFO - [2022-10-16 22:53:28,075] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:53:28,096] {logging_mixin.py:115} INFO - [2022-10-16 22:53:28,096] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:53:28,109] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.408 seconds
+[2022-10-16 22:53:58,584] {processor.py:153} INFO - Started process (PID=551) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:53:58,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:53:58,589] {logging_mixin.py:115} INFO - [2022-10-16 22:53:58,588] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:53:58,992] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:53:59,029] {logging_mixin.py:115} INFO - [2022-10-16 22:53:59,029] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:53:59,076] {logging_mixin.py:115} INFO - [2022-10-16 22:53:59,076] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:53:59,094] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.516 seconds
+[2022-10-16 22:54:29,237] {processor.py:153} INFO - Started process (PID=618) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:54:29,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:54:29,242] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,241] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:54:29,525] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:54:29,542] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,541] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:54:29,564] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,563] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:54:29,577] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.344 seconds
+[2022-10-16 22:54:59,651] {processor.py:153} INFO - Started process (PID=685) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:54:59,654] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:54:59,656] {logging_mixin.py:115} INFO - [2022-10-16 22:54:59,656] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:55:00,051] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:55:00,078] {logging_mixin.py:115} INFO - [2022-10-16 22:55:00,078] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:55:00,094] {logging_mixin.py:115} INFO - [2022-10-16 22:55:00,094] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:55:00,107] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.462 seconds
+[2022-10-16 22:55:30,873] {processor.py:153} INFO - Started process (PID=754) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:55:30,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:55:30,877] {logging_mixin.py:115} INFO - [2022-10-16 22:55:30,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:55:31,276] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:55:31,299] {logging_mixin.py:115} INFO - [2022-10-16 22:55:31,299] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:55:31,313] {logging_mixin.py:115} INFO - [2022-10-16 22:55:31,313] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:55:31,321] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.453 seconds
+[2022-10-16 22:56:02,255] {processor.py:153} INFO - Started process (PID=822) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:56:02,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:56:02,259] {logging_mixin.py:115} INFO - [2022-10-16 22:56:02,259] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:56:02,593] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:56:02,612] {logging_mixin.py:115} INFO - [2022-10-16 22:56:02,612] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:56:02,630] {logging_mixin.py:115} INFO - [2022-10-16 22:56:02,630] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:56:02,639] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.390 seconds
+[2022-10-16 22:56:33,669] {processor.py:153} INFO - Started process (PID=891) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:56:33,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:56:33,674] {logging_mixin.py:115} INFO - [2022-10-16 22:56:33,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:56:34,080] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:56:34,097] {logging_mixin.py:115} INFO - [2022-10-16 22:56:34,097] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:56:34,110] {logging_mixin.py:115} INFO - [2022-10-16 22:56:34,110] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:56:34,117] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.453 seconds
+[2022-10-16 22:57:04,421] {processor.py:153} INFO - Started process (PID=955) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:57:04,423] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:57:04,424] {logging_mixin.py:115} INFO - [2022-10-16 22:57:04,424] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:57:04,839] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:57:04,873] {logging_mixin.py:115} INFO - [2022-10-16 22:57:04,872] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:57:04,894] {logging_mixin.py:115} INFO - [2022-10-16 22:57:04,894] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:57:04,903] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.485 seconds
+[2022-10-16 22:57:35,039] {processor.py:153} INFO - Started process (PID=1018) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:57:35,040] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:57:35,041] {logging_mixin.py:115} INFO - [2022-10-16 22:57:35,041] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:57:35,361] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:57:35,382] {logging_mixin.py:115} INFO - [2022-10-16 22:57:35,382] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:57:35,403] {logging_mixin.py:115} INFO - [2022-10-16 22:57:35,403] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:57:35,412] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.375 seconds
+[2022-10-16 22:58:05,738] {processor.py:153} INFO - Started process (PID=1082) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:58:05,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:58:05,743] {logging_mixin.py:115} INFO - [2022-10-16 22:58:05,743] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:58:06,183] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:58:06,199] {logging_mixin.py:115} INFO - [2022-10-16 22:58:06,199] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:58:06,213] {logging_mixin.py:115} INFO - [2022-10-16 22:58:06,213] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:58:06,223] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.491 seconds
+[2022-10-16 22:58:36,446] {processor.py:153} INFO - Started process (PID=1153) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:58:36,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:58:36,449] {logging_mixin.py:115} INFO - [2022-10-16 22:58:36,449] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:58:36,758] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:58:36,794] {logging_mixin.py:115} INFO - [2022-10-16 22:58:36,794] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:58:36,808] {logging_mixin.py:115} INFO - [2022-10-16 22:58:36,808] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:58:36,819] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.375 seconds
+[2022-10-16 22:59:07,230] {processor.py:153} INFO - Started process (PID=1217) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:59:07,232] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:59:07,233] {logging_mixin.py:115} INFO - [2022-10-16 22:59:07,233] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:59:07,578] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:59:07,595] {logging_mixin.py:115} INFO - [2022-10-16 22:59:07,595] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:59:07,614] {logging_mixin.py:115} INFO - [2022-10-16 22:59:07,614] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:59:07,626] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.405 seconds
+[2022-10-16 22:59:37,850] {processor.py:153} INFO - Started process (PID=1279) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:59:37,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 22:59:37,852] {logging_mixin.py:115} INFO - [2022-10-16 22:59:37,852] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:59:38,213] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 22:59:38,245] {logging_mixin.py:115} INFO - [2022-10-16 22:59:38,245] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:59:38,260] {logging_mixin.py:115} INFO - [2022-10-16 22:59:38,260] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 22:59:38,270] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.422 seconds
+[2022-10-16 23:00:08,313] {processor.py:153} INFO - Started process (PID=1348) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:00:08,314] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 23:00:08,315] {logging_mixin.py:115} INFO - [2022-10-16 23:00:08,315] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:00:08,681] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:00:08,710] {logging_mixin.py:115} INFO - [2022-10-16 23:00:08,710] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:00:08,733] {logging_mixin.py:115} INFO - [2022-10-16 23:00:08,733] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 23:00:08,744] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.434 seconds
+[2022-10-16 23:00:39,619] {processor.py:153} INFO - Started process (PID=1415) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:00:39,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 23:00:39,624] {logging_mixin.py:115} INFO - [2022-10-16 23:00:39,624] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:00:40,041] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:00:40,062] {logging_mixin.py:115} INFO - [2022-10-16 23:00:40,062] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:00:40,073] {logging_mixin.py:115} INFO - [2022-10-16 23:00:40,073] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 23:00:40,080] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.473 seconds
+[2022-10-16 23:01:10,309] {processor.py:153} INFO - Started process (PID=1482) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:01:10,311] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 23:01:10,312] {logging_mixin.py:115} INFO - [2022-10-16 23:01:10,312] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:01:10,698] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:01:10,714] {logging_mixin.py:115} INFO - [2022-10-16 23:01:10,714] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:01:10,726] {logging_mixin.py:115} INFO - [2022-10-16 23:01:10,726] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 23:01:10,732] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.426 seconds
+[2022-10-16 23:01:40,767] {processor.py:153} INFO - Started process (PID=1551) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:01:40,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 23:01:40,770] {logging_mixin.py:115} INFO - [2022-10-16 23:01:40,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:01:41,121] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:01:41,166] {logging_mixin.py:115} INFO - [2022-10-16 23:01:41,166] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:01:41,187] {logging_mixin.py:115} INFO - [2022-10-16 23:01:41,187] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 23:01:41,199] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.434 seconds
+[2022-10-16 23:02:11,499] {processor.py:153} INFO - Started process (PID=1607) to work on /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:02:11,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/gpu_test.py for tasks to queue
+[2022-10-16 23:02:11,504] {logging_mixin.py:115} INFO - [2022-10-16 23:02:11,503] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:02:11,858] {processor.py:651} INFO - DAG(s) dict_keys(['gpu_test']) retrieved from /opt/airflow/dags/gpu_test.py
+[2022-10-16 23:02:11,874] {logging_mixin.py:115} INFO - [2022-10-16 23:02:11,874] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:02:11,887] {logging_mixin.py:115} INFO - [2022-10-16 23:02:11,887] {dag.py:2919} INFO - Setting next_dagrun for gpu_test to 2022-10-15T00:00:00+00:00, run_after=2022-10-16T00:00:00+00:00
+[2022-10-16 23:02:11,894] {processor.py:161} INFO - Processing /opt/airflow/dags/gpu_test.py took 0.400 seconds

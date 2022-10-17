@@ -1,0 +1,350 @@
+[2022-10-16 22:49:46,852] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:49:46,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:49:46,864] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,864] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:49:46,886] {logging_mixin.py:115} INFO - [2022-10-16 22:49:46,879] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:49:46,889] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:49:47,168] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.356 seconds
+[2022-10-16 22:50:17,443] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:50:17,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:50:17,447] {logging_mixin.py:115} INFO - [2022-10-16 22:50:17,447] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:50:17,468] {logging_mixin.py:115} INFO - [2022-10-16 22:50:17,464] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:50:17,469] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:50:17,519] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.088 seconds
+[2022-10-16 22:50:52,906] {processor.py:153} INFO - Started process (PID=176) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:50:52,908] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:50:52,909] {logging_mixin.py:115} INFO - [2022-10-16 22:50:52,909] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:50:52,921] {logging_mixin.py:115} INFO - [2022-10-16 22:50:52,919] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:50:52,922] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:50:52,940] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.040 seconds
+[2022-10-16 22:51:24,018] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:51:24,022] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:51:24,026] {logging_mixin.py:115} INFO - [2022-10-16 22:51:24,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:51:24,036] {logging_mixin.py:115} INFO - [2022-10-16 22:51:24,034] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:51:24,036] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:51:24,057] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.042 seconds
+[2022-10-16 22:51:55,033] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:51:55,039] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:51:55,041] {logging_mixin.py:115} INFO - [2022-10-16 22:51:55,041] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:51:55,051] {logging_mixin.py:115} INFO - [2022-10-16 22:51:55,049] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:51:55,053] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:51:55,085] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.058 seconds
+[2022-10-16 22:52:25,948] {processor.py:153} INFO - Started process (PID=367) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:52:25,949] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:52:25,951] {logging_mixin.py:115} INFO - [2022-10-16 22:52:25,950] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:52:25,974] {logging_mixin.py:115} INFO - [2022-10-16 22:52:25,972] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:52:25,977] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:52:26,003] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.060 seconds
+[2022-10-16 22:52:57,512] {processor.py:153} INFO - Started process (PID=434) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:52:57,516] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:52:57,520] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:52:57,533] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,528] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:52:57,534] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:52:57,584] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.078 seconds
+[2022-10-16 22:53:27,721] {processor.py:153} INFO - Started process (PID=498) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:53:27,726] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:53:27,734] {logging_mixin.py:115} INFO - [2022-10-16 22:53:27,734] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:53:27,754] {logging_mixin.py:115} INFO - [2022-10-16 22:53:27,752] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:53:27,755] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:53:27,795] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.078 seconds
+[2022-10-16 22:53:58,590] {processor.py:153} INFO - Started process (PID=552) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:53:58,593] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:53:58,596] {logging_mixin.py:115} INFO - [2022-10-16 22:53:58,595] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:53:58,609] {logging_mixin.py:115} INFO - [2022-10-16 22:53:58,606] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:53:58,611] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:53:58,635] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.053 seconds
+[2022-10-16 22:54:29,238] {processor.py:153} INFO - Started process (PID=619) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:54:29,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:54:29,242] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,242] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:54:29,252] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,250] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:54:29,253] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:54:29,275] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.040 seconds
+[2022-10-16 22:54:59,658] {processor.py:153} INFO - Started process (PID=686) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:54:59,660] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:54:59,664] {logging_mixin.py:115} INFO - [2022-10-16 22:54:59,663] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:54:59,676] {logging_mixin.py:115} INFO - [2022-10-16 22:54:59,671] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:54:59,677] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:54:59,697] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.044 seconds
+[2022-10-16 22:55:29,783] {processor.py:153} INFO - Started process (PID=752) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:55:29,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:55:29,788] {logging_mixin.py:115} INFO - [2022-10-16 22:55:29,788] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:55:29,797] {logging_mixin.py:115} INFO - [2022-10-16 22:55:29,795] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:55:29,798] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:55:29,816] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.035 seconds
+[2022-10-16 22:56:00,171] {processor.py:153} INFO - Started process (PID=818) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:56:00,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:56:00,174] {logging_mixin.py:115} INFO - [2022-10-16 22:56:00,174] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:56:00,183] {logging_mixin.py:115} INFO - [2022-10-16 22:56:00,180] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:56:00,184] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:56:00,204] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.037 seconds
+[2022-10-16 22:56:30,418] {processor.py:153} INFO - Started process (PID=876) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:56:30,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:56:30,421] {logging_mixin.py:115} INFO - [2022-10-16 22:56:30,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:56:30,430] {logging_mixin.py:115} INFO - [2022-10-16 22:56:30,428] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:56:30,431] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:56:30,457] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.044 seconds
+[2022-10-16 22:57:01,237] {processor.py:153} INFO - Started process (PID=942) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:57:01,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:57:01,240] {logging_mixin.py:115} INFO - [2022-10-16 22:57:01,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:57:01,247] {logging_mixin.py:115} INFO - [2022-10-16 22:57:01,244] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:57:01,249] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:57:01,264] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.029 seconds
+[2022-10-16 22:57:31,693] {processor.py:153} INFO - Started process (PID=1009) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:57:31,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:57:31,696] {logging_mixin.py:115} INFO - [2022-10-16 22:57:31,696] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:57:31,702] {logging_mixin.py:115} INFO - [2022-10-16 22:57:31,700] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:57:31,703] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:57:31,721] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.030 seconds
+[2022-10-16 22:58:02,456] {processor.py:153} INFO - Started process (PID=1076) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:58:02,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:58:02,460] {logging_mixin.py:115} INFO - [2022-10-16 22:58:02,460] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:58:02,468] {logging_mixin.py:115} INFO - [2022-10-16 22:58:02,466] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:58:02,469] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:58:02,489] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.037 seconds
+[2022-10-16 22:58:32,964] {processor.py:153} INFO - Started process (PID=1143) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:58:32,966] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:58:32,967] {logging_mixin.py:115} INFO - [2022-10-16 22:58:32,967] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:58:32,980] {logging_mixin.py:115} INFO - [2022-10-16 22:58:32,977] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:58:32,981] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:58:33,006] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.046 seconds
+[2022-10-16 22:59:03,976] {processor.py:153} INFO - Started process (PID=1202) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:59:03,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:59:03,983] {logging_mixin.py:115} INFO - [2022-10-16 22:59:03,983] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:59:03,994] {logging_mixin.py:115} INFO - [2022-10-16 22:59:03,992] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:59:03,996] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:59:04,019] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.049 seconds
+[2022-10-16 22:59:34,375] {processor.py:153} INFO - Started process (PID=1270) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:59:34,380] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 22:59:34,392] {logging_mixin.py:115} INFO - [2022-10-16 22:59:34,392] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:59:34,404] {logging_mixin.py:115} INFO - [2022-10-16 22:59:34,401] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:59:34,405] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 22:59:34,426] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.055 seconds
+[2022-10-16 23:00:04,767] {processor.py:153} INFO - Started process (PID=1337) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:00:04,771] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 23:00:04,773] {logging_mixin.py:115} INFO - [2022-10-16 23:00:04,773] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:00:04,787] {logging_mixin.py:115} INFO - [2022-10-16 23:00:04,783] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:00:04,789] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:00:04,810] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.050 seconds
+[2022-10-16 23:00:35,096] {processor.py:153} INFO - Started process (PID=1404) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:00:35,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 23:00:35,100] {logging_mixin.py:115} INFO - [2022-10-16 23:00:35,099] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:00:35,107] {logging_mixin.py:115} INFO - [2022-10-16 23:00:35,105] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:00:35,107] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:00:35,126] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.034 seconds
+[2022-10-16 23:01:05,673] {processor.py:153} INFO - Started process (PID=1462) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:01:05,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 23:01:05,681] {logging_mixin.py:115} INFO - [2022-10-16 23:01:05,681] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:01:05,691] {logging_mixin.py:115} INFO - [2022-10-16 23:01:05,689] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:01:05,693] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:01:05,720] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.055 seconds
+[2022-10-16 23:01:36,030] {processor.py:153} INFO - Started process (PID=1529) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:01:36,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 23:01:36,032] {logging_mixin.py:115} INFO - [2022-10-16 23:01:36,032] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:01:36,039] {logging_mixin.py:115} INFO - [2022-10-16 23:01:36,037] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:01:36,040] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:01:36,069] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.041 seconds
+[2022-10-16 23:02:07,005] {processor.py:153} INFO - Started process (PID=1596) to work on /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:02:07,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py for tasks to queue
+[2022-10-16 23:02:07,010] {logging_mixin.py:115} INFO - [2022-10-16 23:02:07,010] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:02:07,019] {logging_mixin.py:115} INFO - [2022-10-16 23:02:07,017] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:02:07,021] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py
+[2022-10-16 23:02:07,041] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/main_inference-checkpoint.py took 0.050 seconds

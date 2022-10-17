@@ -1,0 +1,179 @@
+[2022-10-16 22:49:47,664] {processor.py:153} INFO - Started process (PID=47) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:49:47,669] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:49:47,673] {logging_mixin.py:115} INFO - [2022-10-16 22:49:47,672] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:49:47,748] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:49:48,689] {logging_mixin.py:115} INFO - [2022-10-16 22:49:48,689] {manager.py:508} INFO - Created Permission View: can delete on DAG:3_download_rocket_launches
+[2022-10-16 22:49:48,755] {logging_mixin.py:115} INFO - [2022-10-16 22:49:48,755] {manager.py:508} INFO - Created Permission View: can edit on DAG:3_download_rocket_launches
+[2022-10-16 22:49:48,766] {logging_mixin.py:115} INFO - [2022-10-16 22:49:48,766] {manager.py:508} INFO - Created Permission View: can read on DAG:3_download_rocket_launches
+[2022-10-16 22:49:48,768] {logging_mixin.py:115} INFO - [2022-10-16 22:49:48,768] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:49:48,792] {logging_mixin.py:115} INFO - [2022-10-16 22:49:48,792] {dag.py:2390} INFO - Creating ORM DAG for 3_download_rocket_launches
+[2022-10-16 22:49:48,821] {logging_mixin.py:115} INFO - [2022-10-16 22:49:48,821] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:49:48,854] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 1.199 seconds
+[2022-10-16 22:50:19,095] {processor.py:153} INFO - Started process (PID=104) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:50:19,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:50:19,100] {logging_mixin.py:115} INFO - [2022-10-16 22:50:19,100] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:50:19,147] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:50:19,249] {logging_mixin.py:115} INFO - [2022-10-16 22:50:19,248] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:50:19,307] {logging_mixin.py:115} INFO - [2022-10-16 22:50:19,307] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:50:19,574] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.485 seconds
+[2022-10-16 22:50:53,013] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:50:53,014] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:50:53,016] {logging_mixin.py:115} INFO - [2022-10-16 22:50:53,016] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:50:53,035] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:50:53,058] {logging_mixin.py:115} INFO - [2022-10-16 22:50:53,058] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:50:53,077] {logging_mixin.py:115} INFO - [2022-10-16 22:50:53,077] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:50:53,385] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.374 seconds
+[2022-10-16 22:51:24,129] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:51:24,131] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:51:24,141] {logging_mixin.py:115} INFO - [2022-10-16 22:51:24,141] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:51:24,171] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:51:24,206] {logging_mixin.py:115} INFO - [2022-10-16 22:51:24,206] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:51:24,235] {logging_mixin.py:115} INFO - [2022-10-16 22:51:24,235] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:51:24,437] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.310 seconds
+[2022-10-16 22:51:55,175] {processor.py:153} INFO - Started process (PID=303) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:51:55,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:51:55,180] {logging_mixin.py:115} INFO - [2022-10-16 22:51:55,179] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:51:55,208] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:51:55,247] {logging_mixin.py:115} INFO - [2022-10-16 22:51:55,247] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:51:55,279] {logging_mixin.py:115} INFO - [2022-10-16 22:51:55,279] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:51:55,598] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.427 seconds
+[2022-10-16 22:52:26,086] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:52:26,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:52:26,088] {logging_mixin.py:115} INFO - [2022-10-16 22:52:26,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:52:26,111] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:52:26,145] {logging_mixin.py:115} INFO - [2022-10-16 22:52:26,145] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:52:26,164] {logging_mixin.py:115} INFO - [2022-10-16 22:52:26,164] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:52:26,335] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.253 seconds
+[2022-10-16 22:52:57,709] {processor.py:153} INFO - Started process (PID=436) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:52:57,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:52:57,712] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:52:57,729] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:52:57,778] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,778] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:52:57,804] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,803] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:52:58,110] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.405 seconds
+[2022-10-16 22:53:28,265] {processor.py:153} INFO - Started process (PID=503) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:53:28,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:53:28,267] {logging_mixin.py:115} INFO - [2022-10-16 22:53:28,267] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:53:28,276] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:53:28,300] {logging_mixin.py:115} INFO - [2022-10-16 22:53:28,300] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:53:28,325] {logging_mixin.py:115} INFO - [2022-10-16 22:53:28,325] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:53:28,530] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.268 seconds
+[2022-10-16 22:53:59,386] {processor.py:153} INFO - Started process (PID=569) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:53:59,388] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:53:59,389] {logging_mixin.py:115} INFO - [2022-10-16 22:53:59,389] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:53:59,398] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:53:59,424] {logging_mixin.py:115} INFO - [2022-10-16 22:53:59,424] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:53:59,452] {logging_mixin.py:115} INFO - [2022-10-16 22:53:59,452] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:53:59,738] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.357 seconds
+[2022-10-16 22:54:29,839] {processor.py:153} INFO - Started process (PID=626) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:54:29,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:54:29,841] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:54:29,859] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:54:29,879] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,879] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:54:29,895] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,895] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:54:29,995] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.159 seconds
+[2022-10-16 22:55:00,194] {processor.py:153} INFO - Started process (PID=693) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:55:00,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:55:00,197] {logging_mixin.py:115} INFO - [2022-10-16 22:55:00,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:55:00,208] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:55:00,229] {logging_mixin.py:115} INFO - [2022-10-16 22:55:00,229] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:55:00,249] {logging_mixin.py:115} INFO - [2022-10-16 22:55:00,249] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:55:00,258] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.066 seconds
+[2022-10-16 22:55:30,882] {processor.py:153} INFO - Started process (PID=755) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:55:30,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:55:30,887] {logging_mixin.py:115} INFO - [2022-10-16 22:55:30,887] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:55:30,907] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:55:30,936] {logging_mixin.py:115} INFO - [2022-10-16 22:55:30,935] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:55:30,958] {logging_mixin.py:115} INFO - [2022-10-16 22:55:30,958] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:55:30,971] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.094 seconds
+[2022-10-16 22:56:01,210] {processor.py:153} INFO - Started process (PID=820) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:56:01,213] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:56:01,215] {logging_mixin.py:115} INFO - [2022-10-16 22:56:01,215] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:56:01,234] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:56:01,255] {logging_mixin.py:115} INFO - [2022-10-16 22:56:01,255] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:56:01,273] {logging_mixin.py:115} INFO - [2022-10-16 22:56:01,273] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:56:01,280] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.076 seconds
+[2022-10-16 22:56:31,528] {processor.py:153} INFO - Started process (PID=878) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:56:31,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:56:31,533] {logging_mixin.py:115} INFO - [2022-10-16 22:56:31,533] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:56:31,554] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:56:31,582] {logging_mixin.py:115} INFO - [2022-10-16 22:56:31,582] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:56:31,601] {logging_mixin.py:115} INFO - [2022-10-16 22:56:31,601] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:56:31,610] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.089 seconds
+[2022-10-16 22:57:02,281] {processor.py:153} INFO - Started process (PID=944) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:57:02,283] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:57:02,285] {logging_mixin.py:115} INFO - [2022-10-16 22:57:02,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:57:02,307] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:57:02,331] {logging_mixin.py:115} INFO - [2022-10-16 22:57:02,331] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:57:02,348] {logging_mixin.py:115} INFO - [2022-10-16 22:57:02,348] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:57:02,356] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.085 seconds
+[2022-10-16 22:57:32,735] {processor.py:153} INFO - Started process (PID=1011) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:57:32,737] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:57:32,742] {logging_mixin.py:115} INFO - [2022-10-16 22:57:32,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:57:32,760] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:57:32,780] {logging_mixin.py:115} INFO - [2022-10-16 22:57:32,780] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:57:32,797] {logging_mixin.py:115} INFO - [2022-10-16 22:57:32,797] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:57:32,807] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.078 seconds
+[2022-10-16 22:58:03,490] {processor.py:153} INFO - Started process (PID=1078) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:58:03,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:58:03,494] {logging_mixin.py:115} INFO - [2022-10-16 22:58:03,494] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:58:03,509] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:58:03,530] {logging_mixin.py:115} INFO - [2022-10-16 22:58:03,530] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:58:03,551] {logging_mixin.py:115} INFO - [2022-10-16 22:58:03,551] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:58:03,561] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.076 seconds
+[2022-10-16 22:58:34,051] {processor.py:153} INFO - Started process (PID=1145) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:58:34,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:58:34,057] {logging_mixin.py:115} INFO - [2022-10-16 22:58:34,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:58:34,086] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:58:34,120] {logging_mixin.py:115} INFO - [2022-10-16 22:58:34,120] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:58:34,148] {logging_mixin.py:115} INFO - [2022-10-16 22:58:34,147] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:58:34,163] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.118 seconds
+[2022-10-16 22:59:05,052] {processor.py:153} INFO - Started process (PID=1204) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:59:05,055] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:59:05,057] {logging_mixin.py:115} INFO - [2022-10-16 22:59:05,057] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:59:05,077] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:59:05,098] {logging_mixin.py:115} INFO - [2022-10-16 22:59:05,098] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:59:05,115] {logging_mixin.py:115} INFO - [2022-10-16 22:59:05,115] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:59:05,126] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.080 seconds
+[2022-10-16 22:59:35,382] {processor.py:153} INFO - Started process (PID=1272) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 22:59:35,384] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 22:59:35,385] {logging_mixin.py:115} INFO - [2022-10-16 22:59:35,385] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 22:59:35,395] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 22:59:35,412] {logging_mixin.py:115} INFO - [2022-10-16 22:59:35,412] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 22:59:35,439] {logging_mixin.py:115} INFO - [2022-10-16 22:59:35,439] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 22:59:35,454] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.077 seconds
+[2022-10-16 23:00:05,810] {processor.py:153} INFO - Started process (PID=1339) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 23:00:05,812] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 23:00:05,813] {logging_mixin.py:115} INFO - [2022-10-16 23:00:05,813] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 23:00:05,830] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 23:00:05,854] {logging_mixin.py:115} INFO - [2022-10-16 23:00:05,854] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:00:05,879] {logging_mixin.py:115} INFO - [2022-10-16 23:00:05,879] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 23:00:05,888] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.081 seconds
+[2022-10-16 23:00:36,181] {processor.py:153} INFO - Started process (PID=1406) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 23:00:36,183] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 23:00:36,185] {logging_mixin.py:115} INFO - [2022-10-16 23:00:36,185] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 23:00:36,204] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 23:00:36,228] {logging_mixin.py:115} INFO - [2022-10-16 23:00:36,228] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:00:36,249] {logging_mixin.py:115} INFO - [2022-10-16 23:00:36,248] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 23:00:36,262] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.090 seconds
+[2022-10-16 23:01:06,704] {processor.py:153} INFO - Started process (PID=1473) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 23:01:06,706] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 23:01:06,708] {logging_mixin.py:115} INFO - [2022-10-16 23:01:06,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 23:01:06,741] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 23:01:06,808] {logging_mixin.py:115} INFO - [2022-10-16 23:01:06,808] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:01:06,846] {logging_mixin.py:115} INFO - [2022-10-16 23:01:06,846] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 23:01:06,860] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.168 seconds
+[2022-10-16 23:01:37,143] {processor.py:153} INFO - Started process (PID=1531) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 23:01:37,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 23:01:37,150] {logging_mixin.py:115} INFO - [2022-10-16 23:01:37,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 23:01:37,171] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 23:01:37,198] {logging_mixin.py:115} INFO - [2022-10-16 23:01:37,198] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:01:37,217] {logging_mixin.py:115} INFO - [2022-10-16 23:01:37,217] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 23:01:37,225] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.096 seconds
+[2022-10-16 23:02:08,044] {processor.py:153} INFO - Started process (PID=1598) to work on /opt/airflow/dags/test_test.py
+[2022-10-16 23:02:08,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/test_test.py for tasks to queue
+[2022-10-16 23:02:08,048] {logging_mixin.py:115} INFO - [2022-10-16 23:02:08,048] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/test_test.py
+[2022-10-16 23:02:08,066] {processor.py:651} INFO - DAG(s) dict_keys(['3_download_rocket_launches']) retrieved from /opt/airflow/dags/test_test.py
+[2022-10-16 23:02:08,089] {logging_mixin.py:115} INFO - [2022-10-16 23:02:08,089] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-16 23:02:08,104] {logging_mixin.py:115} INFO - [2022-10-16 23:02:08,104] {dag.py:2919} INFO - Setting next_dagrun for 3_download_rocket_launches to 2022-10-06T00:00:00+00:00, run_after=2022-10-07T00:00:00+00:00
+[2022-10-16 23:02:08,113] {processor.py:161} INFO - Processing /opt/airflow/dags/test_test.py took 0.074 seconds

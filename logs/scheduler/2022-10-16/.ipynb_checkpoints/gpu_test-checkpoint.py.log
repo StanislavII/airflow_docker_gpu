@@ -1,0 +1,350 @@
+[2022-10-16 22:49:47,319] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:49:47,350] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:49:47,354] {logging_mixin.py:115} INFO - [2022-10-16 22:49:47,354] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:49:47,438] {logging_mixin.py:115} INFO - [2022-10-16 22:49:47,397] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:49:47,446] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:49:47,579] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.265 seconds
+[2022-10-16 22:50:18,104] {processor.py:153} INFO - Started process (PID=103) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:50:18,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:50:18,112] {logging_mixin.py:115} INFO - [2022-10-16 22:50:18,112] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:50:18,132] {logging_mixin.py:115} INFO - [2022-10-16 22:50:18,129] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:50:18,134] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:50:18,169] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.072 seconds
+[2022-10-16 22:50:52,960] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:50:52,961] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:50:52,962] {logging_mixin.py:115} INFO - [2022-10-16 22:50:52,962] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:50:52,972] {logging_mixin.py:115} INFO - [2022-10-16 22:50:52,971] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:50:52,973] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:50:52,993] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.036 seconds
+[2022-10-16 22:51:24,077] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:51:24,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:51:24,079] {logging_mixin.py:115} INFO - [2022-10-16 22:51:24,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:51:24,090] {logging_mixin.py:115} INFO - [2022-10-16 22:51:24,088] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:51:24,092] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:51:24,111] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.036 seconds
+[2022-10-16 22:51:55,110] {processor.py:153} INFO - Started process (PID=302) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:51:55,114] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:51:55,116] {logging_mixin.py:115} INFO - [2022-10-16 22:51:55,116] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:51:55,122] {logging_mixin.py:115} INFO - [2022-10-16 22:51:55,121] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:51:55,123] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:51:55,143] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.036 seconds
+[2022-10-16 22:52:26,027] {processor.py:153} INFO - Started process (PID=368) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:52:26,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:52:26,029] {logging_mixin.py:115} INFO - [2022-10-16 22:52:26,029] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:52:26,038] {logging_mixin.py:115} INFO - [2022-10-16 22:52:26,035] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:52:26,041] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:52:26,060] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.036 seconds
+[2022-10-16 22:52:57,625] {processor.py:153} INFO - Started process (PID=435) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:52:57,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:52:57,629] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,629] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:52:57,644] {logging_mixin.py:115} INFO - [2022-10-16 22:52:57,642] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:52:57,645] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:52:57,671] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.051 seconds
+[2022-10-16 22:53:27,831] {processor.py:153} INFO - Started process (PID=499) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:53:27,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:53:27,834] {logging_mixin.py:115} INFO - [2022-10-16 22:53:27,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:53:27,841] {logging_mixin.py:115} INFO - [2022-10-16 22:53:27,839] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:53:27,841] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:53:27,878] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.049 seconds
+[2022-10-16 22:53:58,656] {processor.py:153} INFO - Started process (PID=553) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:53:58,658] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:53:58,659] {logging_mixin.py:115} INFO - [2022-10-16 22:53:58,659] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:53:58,664] {logging_mixin.py:115} INFO - [2022-10-16 22:53:58,663] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:53:58,666] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:53:58,684] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.030 seconds
+[2022-10-16 22:54:29,299] {processor.py:153} INFO - Started process (PID=620) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:54:29,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:54:29,302] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:54:29,310] {logging_mixin.py:115} INFO - [2022-10-16 22:54:29,308] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:54:29,311] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:54:29,331] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.035 seconds
+[2022-10-16 22:54:59,716] {processor.py:153} INFO - Started process (PID=687) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:54:59,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:54:59,718] {logging_mixin.py:115} INFO - [2022-10-16 22:54:59,718] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:54:59,723] {logging_mixin.py:115} INFO - [2022-10-16 22:54:59,722] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:54:59,724] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:54:59,745] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.031 seconds
+[2022-10-16 22:55:29,786] {processor.py:153} INFO - Started process (PID=753) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:55:29,787] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:55:29,789] {logging_mixin.py:115} INFO - [2022-10-16 22:55:29,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:55:29,795] {logging_mixin.py:115} INFO - [2022-10-16 22:55:29,793] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:55:29,796] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:55:29,816] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.033 seconds
+[2022-10-16 22:56:00,172] {processor.py:153} INFO - Started process (PID=819) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:56:00,174] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:56:00,174] {logging_mixin.py:115} INFO - [2022-10-16 22:56:00,174] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:56:00,184] {logging_mixin.py:115} INFO - [2022-10-16 22:56:00,182] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:56:00,185] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:56:00,204] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.035 seconds
+[2022-10-16 22:56:30,418] {processor.py:153} INFO - Started process (PID=877) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:56:30,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:56:30,421] {logging_mixin.py:115} INFO - [2022-10-16 22:56:30,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:56:30,430] {logging_mixin.py:115} INFO - [2022-10-16 22:56:30,428] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:56:30,431] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:56:30,464] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.051 seconds
+[2022-10-16 22:57:01,239] {processor.py:153} INFO - Started process (PID=943) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:57:01,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:57:01,242] {logging_mixin.py:115} INFO - [2022-10-16 22:57:01,242] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:57:01,249] {logging_mixin.py:115} INFO - [2022-10-16 22:57:01,247] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:57:01,250] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:57:01,264] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.027 seconds
+[2022-10-16 22:57:31,698] {processor.py:153} INFO - Started process (PID=1010) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:57:31,699] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:57:31,700] {logging_mixin.py:115} INFO - [2022-10-16 22:57:31,700] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:57:31,707] {logging_mixin.py:115} INFO - [2022-10-16 22:57:31,704] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:57:31,709] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:57:31,723] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.028 seconds
+[2022-10-16 22:58:02,456] {processor.py:153} INFO - Started process (PID=1077) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:58:02,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:58:02,460] {logging_mixin.py:115} INFO - [2022-10-16 22:58:02,460] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:58:02,467] {logging_mixin.py:115} INFO - [2022-10-16 22:58:02,465] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:58:02,468] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:58:02,489] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.036 seconds
+[2022-10-16 22:58:32,964] {processor.py:153} INFO - Started process (PID=1144) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:58:32,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:58:32,970] {logging_mixin.py:115} INFO - [2022-10-16 22:58:32,970] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:58:32,980] {logging_mixin.py:115} INFO - [2022-10-16 22:58:32,977] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:58:32,981] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:58:33,006] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.046 seconds
+[2022-10-16 22:59:03,988] {processor.py:153} INFO - Started process (PID=1203) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:59:03,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:59:03,991] {logging_mixin.py:115} INFO - [2022-10-16 22:59:03,991] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:59:04,002] {logging_mixin.py:115} INFO - [2022-10-16 22:59:04,000] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:59:04,003] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:59:04,021] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.038 seconds
+[2022-10-16 22:59:34,375] {processor.py:153} INFO - Started process (PID=1271) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:59:34,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 22:59:34,392] {logging_mixin.py:115} INFO - [2022-10-16 22:59:34,392] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:59:34,402] {logging_mixin.py:115} INFO - [2022-10-16 22:59:34,400] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 22:59:34,404] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 22:59:34,425] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.055 seconds
+[2022-10-16 23:00:04,777] {processor.py:153} INFO - Started process (PID=1338) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:00:04,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 23:00:04,781] {logging_mixin.py:115} INFO - [2022-10-16 23:00:04,781] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:00:04,790] {logging_mixin.py:115} INFO - [2022-10-16 23:00:04,788] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:00:04,791] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:00:04,810] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.039 seconds
+[2022-10-16 23:00:35,103] {processor.py:153} INFO - Started process (PID=1405) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:00:35,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 23:00:35,106] {logging_mixin.py:115} INFO - [2022-10-16 23:00:35,106] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:00:35,113] {logging_mixin.py:115} INFO - [2022-10-16 23:00:35,111] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:00:35,114] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:00:35,131] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.032 seconds
+[2022-10-16 23:01:05,682] {processor.py:153} INFO - Started process (PID=1463) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:01:05,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 23:01:05,686] {logging_mixin.py:115} INFO - [2022-10-16 23:01:05,686] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:01:05,700] {logging_mixin.py:115} INFO - [2022-10-16 23:01:05,693] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:01:05,703] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:01:05,721] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.045 seconds
+[2022-10-16 23:01:36,037] {processor.py:153} INFO - Started process (PID=1530) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:01:36,039] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 23:01:36,040] {logging_mixin.py:115} INFO - [2022-10-16 23:01:36,040] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:01:36,048] {logging_mixin.py:115} INFO - [2022-10-16 23:01:36,046] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:01:36,048] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:01:36,080] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.047 seconds
+[2022-10-16 23:02:07,006] {processor.py:153} INFO - Started process (PID=1597) to work on /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:02:07,009] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py for tasks to queue
+[2022-10-16 23:02:07,011] {logging_mixin.py:115} INFO - [2022-10-16 23:02:07,010] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:02:07,019] {logging_mixin.py:115} INFO - [2022-10-16 23:02:07,017] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py", line 5, in <module>
+    "execution_count": null,
+NameError: name 'null' is not defined
+[2022-10-16 23:02:07,021] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py
+[2022-10-16 23:02:07,042] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/gpu_test-checkpoint.py took 0.041 seconds
