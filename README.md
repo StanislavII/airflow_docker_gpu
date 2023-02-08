@@ -53,6 +53,7 @@ docker rm $(docker ps -aq) # удалить все контейнеры
 docker rmi {image} # удалить образ
 docker build -t {image_name} . # создает образ на основе dockerfile текущей директории
 docker build -f {Dockerfile} # либо на основе какого-то конкретного dockerfile
+docker build -t test_6 -f docker_gpu/Dockerfile . --network=host --no-cache # -t tagged -f file --network for proxy --no-cache без переиспользования частей образа
 docker commit {container_id} {new_image_name} # на основе запущенного контейнера создает образ
 docker-compose up airflow-init # инициализируем профиль для первого раза в airflow -> папка logs
 docker-compose up -d -build # запускает процесс в фоновом режиме со сборкой необходимых образов (если есть --no-cache)
