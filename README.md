@@ -55,12 +55,14 @@ docker rmi {image} # удалить образ
 docker build -t {image_name} . # создает образ на основе dockerfile текущей директории
 docker build -f {Dockerfile} # либо на основе какого-то конкретного dockerfile
 docker build -t test_6 -f docker_gpu/Dockerfile . --network=host --no-cache # -t tagged -f file --network for proxy --no-cache без переиспользования частей образа
-docker inspect -f '{{ .Mounts}}' {container_id} # позволяет маунтить (добавлять) пути хоста к контейнеру 
+docker inspect -f '{{ .Mounts}}' {container_id} # позволяет маунтить (добавлять) пути хоста к контейнеру
+sudo chmod 777 -R data_download # Nb если маунтить папку к контейнеру либо добавялть путь в образ то лучше "разлочить" 
 docker commit {container_id} {new_image_name} # на основе запущенного контейнера создает образ
 docker-compose up airflow-init # инициализируем профиль для первого раза в airflow -> папка logs
 docker-compose up -d -build # запускает процесс в фоновом режиме со сборкой необходимых образов (если есть --no-cache)
 docker-compose down #  останавливает процесс
 docker volume prune # очищает папки логических томов
+
 ```
 ## 2 part. Images
 
