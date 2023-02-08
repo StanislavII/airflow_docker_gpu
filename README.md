@@ -45,6 +45,7 @@ docker images # список образов
 docker pull {image} # скачать образ
 docker run -d -p {port} {image} # запуск образа по порту, флажок -d обозначает запуск через демона (фоновый режим)
 docker ps -a - вывод активных контейнеров, флажок -a вывод еще и некактивные
+sudo docker ps -a -q --filter ancestor = {tag or image id} # вывод что и выше только id контейнеров созданных из фильтра по образу
 docker stop/start {container_id} # приостанавливает либо запускает контейнер
 docker exec -it {container_id} bash # позволяет попасть в котейнер
 docker kill {container_id} # более быстрый и небезопасный stop
