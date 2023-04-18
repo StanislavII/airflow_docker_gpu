@@ -64,6 +64,29 @@ docker-compose down #  останавливает процесс
 docker volume prune # очищает папки логических томов
 
 ```
+8. _Полезные команды для отладки некоторых проблем в Линукс_
+```Bash
+
+systemctl restart docker - перезагружает докер в случае каких-либо сбоев (например: error response daemon)
+systemctl daemon-reload - менее глобально перезагружает менеджер докера (например: registry connection refused)
+mkdir -p /etc/systemd/system/docker.service.d - иногда возникают ошибки с прокси то нужно создать следующую директорию 
+nano /etc/systemd/system/docker.service.d/docker.root.conf - прописать здесь прокси вида...
+
+[Service]
+Environment="HTTP_PROXY=proxy" "HTTPS_PROXY=proxy"
+
+systemctl show --property Environment docker - должно отображать принятые изменения прокси конфиг в докере
+sudo nano /etc/resolv.conf - работа с доменами
+
+domain berkeley.edu 
+search unc.edu 
+nameserver 204.199.87.2 
+nameserver 204.199.77.2
+
+"airflow db init" or "aurflow initdb", "airflow scheduler", "airflow webserver" - перезагружает базы аирфлоу внутри докер контейнера (сначала exec -it ... bash), основные проблемы не отображаются логи или не обнавляются код дага в вебке
+sudo pkill -9 -f "airflow scheduler"/"airflow webserver"- те же операции не внутри контейнера
+
+```
 ## 2 part. Images
 
 В Dockerfile находится сборка к базовому Python 3.7 или что-то вроде того от apache/airflow, из самого хайпового решил добавить **lgbm**, кастомим базовый apache/airflow нашим Dockerfile через команду 
