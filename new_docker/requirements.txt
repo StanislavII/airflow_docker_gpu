@@ -1,0 +1,9 @@
+transformers
+torch
+datasets
+pandas
+tqdm
+numpy
+sentencepiece
+regex
+python-docx
